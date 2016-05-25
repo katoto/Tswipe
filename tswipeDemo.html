@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/tswipeDemo.css">
+    <script src=Tswipe.js></script>
+</head>
+<body>
+<!--有动画-->
+<section class="dangdang_extend">
+    <div class="dangdang_extend_box">
+        <h2>推广商品</h2>
+
+        <div class="dangdang_boxUl">
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <img src="images/extend-1.jpg">
+
+                        <p>汤素兰彩图注音版 笨狼的故事6本套装 低年级读物 国际大奖 五星童书</p>
+                        <span class="killtime_price">&yen; 10.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/extend-2.jpg">
+
+                        <p>《我们，我们的历史》 法国原创历史绘本 重磅新书 限时抢购 精装大开本</p>
+                        <span class="killtime_price">&yen; 10.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/extend-3.jpg">
+
+                        <p>东方儿童性教育绘本（韩国） 洋溢家庭之爱 讲述生命可贵 全三册彩图 超值折扣</p>
+                        <span class="killtime_price">&yen; 10.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/extend-3.jpg">
+
+                        <p>东方儿童性教育绘本（韩国） 洋溢家庭之爱 讲述生命可贵 全三册彩图 超值折扣</p>
+                        <span class="killtime_price">&yen; 10.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/extend-3.jpg">
+
+                        <p>东方儿童性教育绘本（韩国） 洋溢家庭之爱 讲述生命可贵 全三册彩图 超值折扣</p>
+                        <span class="killtime_price">&yen; 10.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/extend-1.jpg">
+
+                        <p>汤素兰彩图注音版 笨狼的故事6本套装 低年级读物 国际大奖 五星童书</p>
+                        <span class="killtime_price">&yen; 10.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/extend-2.jpg">
+
+                        <p>《我们，我们的历史》 法国原创历史绘本 重磅新书 限时抢购 精装大开本</p>
+                        <span class="killtime_price">&yen; 10.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/extend-3.jpg">
+
+                        <p>东方儿童性教育绘本（韩国） 洋溢家庭之爱 讲述生命可贵 全三册彩图 超值折扣</p>
+                        <span class="killtime_price">&yen; 10.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/extend-3.jpg">
+
+                        <p>东方儿童性教育绘本（韩国） 洋溢家庭之爱 讲述生命可贵 全三册彩图 超值折扣</p>
+                        <span class="killtime_price">&yen; 10.00</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<script>
+//    最新布局要先写好
+    var box = document.getElementsByClassName("dangdang_boxUl")[0];
+    console.log(box);
+//    调用滑动函数  也提供了部分函数使用,请用谷歌浏览器查看
+    Tswipe.iScroll({
+        swipeDom:box,
+        swipeType:'x',
+        swipeDistance:70
+    });
+</script>
+</body>
+</html>

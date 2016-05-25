@@ -1,0 +1,46 @@
+/*推广的产品*/
+.dangdang_extend {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.dangdang_extend > .dangdang_extend_box {
+    width: 100%;
+    overflow: hidden;
+}
+/*宽度在js上是动态展示的*/
+.dangdang_extend > .dangdang_extend_box  ul {
+    width: 300%;
+    background-color: #989da2;
+}
+
+.dangdang_extend > .dangdang_extend_box  ul > li {
+    width: 10%;
+    float: left;
+    margin-right: 5px;
+    background-color: #fff;
+}
+
+.dangdang_extend > .dangdang_extend_box  ul > li > a {
+    width: 100%;
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+}
+.dangdang_extend_box  ul > li > a >span{
+    color: #ff463c;
+    font-size: 16px;
+}
+
+.dangdang_extend_box  ul > li > a >p{
+    font-size: 14px;
+    height: 38px;
+    overflow: hidden;
+    margin: 8px;
+}
+.dangdang_extend_box  ul > li > a > img {
+    width: 100%;
+    display: block;
+}
+
+
